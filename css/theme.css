@@ -1,0 +1,222 @@
+/* BODY */
+
+body.light-theme { background-color: #FFFFFF; }
+body.dark-theme { background-color: #040629; }
+
+
+body.light-theme .btn:hover { background-color: #DFDFDF; }
+body.dark-theme .btn:hover { background-color: #232E55; }
+
+
+body.light-theme::-webkit-scrollbar-thumb { background-color: #DFDFDF; }
+body.dark-theme::-webkit-scrollbar-thumb { background-color: #232E55; }
+
+
+/* DATETIME */
+
+.datetime.light-theme p { color: #000000; }
+.datetime.dark-theme p { color: #BED0F2; }
+
+
+/* NAV */
+
+.nav.light-theme .btn:hover { background-color: #DBEEE7; }
+.nav.dark-theme .btn:hover { background-color: #232E55; }
+
+.nav.light-theme .btn__open-menu { background-image: url(../icons/nav/menu-light.png); }
+.nav.light-theme .btn__close-menu { background-image: url(../icons/nav/cross-light.png); }
+.nav.light-theme .btn__change-theme { background-image: url(../icons/nav/change-theme-light.png); }
+
+.nav.dark-theme .btn__open-menu { background-image: url(../icons/nav/menu-dark.png); }
+.nav.dark-theme .btn__close-menu { background-image: url(../icons/nav/cross-dark.png); }
+.nav.dark-theme .btn__change-theme { background-image: url(../icons/nav/change-theme-dark.png); }
+
+
+/* CONTENT */
+
+/* header */
+
+.content.light-theme .content-title { background-color: #DBEEE7; }
+.content.dark-theme .content-title { background-color: #B9BCDD; }
+
+
+.content.light-theme .btn__edit-project { background-image: url(../icons/buttons/edit-light.png); }
+.content.light-theme .btn__add-task { background-image: url(../icons/buttons/add-task-light.png); }
+
+.content.dark-theme .btn__edit-project { background-image: url(../icons/buttons/edit-dark.png); }
+.content.dark-theme .btn__add-task { background-image: url(../icons/buttons/add-task-dark.png); }
+
+
+.content.light-theme .content-header { border-color: #CCCCCC; }
+.content.dark-theme .content-header { border-color: #DFDFDF; }
+
+
+.content.light-theme .content-description { color: #717171; }
+.content.dark-theme .content-description { color: #BED0F2; }
+
+
+
+/* task card */
+
+.content.light-theme .task-card {
+	color: #717171;
+	border-color: #CCCCCC;
+}
+
+.content.dark-theme .task-card {
+	color: #BED0F2;
+	border-color: #DFDFDF;
+}
+
+.content.light-theme .task-card:first-child { border-color: #CCCCCC; }
+.content.dark-theme .task-card:first-child { border-color: #DFDFDF; }
+
+
+.content.light-theme .task-input input+label { border-color: #717171; }
+.content.dark-theme .task-input input+label { border-color: #DFDFDF; }
+
+.content.light-theme .task-input input+label:hover { background-color: #DFDFDF; }
+.content.dark-theme .task-input input+label:hover { background-color: #8693C3; }
+
+.content.light-theme .task-input input:checked+label { background-color: #DFDFDF; }
+.content.dark-theme .task-input input:checked+label { background-color: #8693C3; }
+
+.content.light-theme .task-title { color: #000000; }
+.content.dark-theme .task-title { color: #DFDFDF; }
+
+
+.content.light-theme .task-description { color: #717171; }
+.content.dark-theme .task-description { color: #BED0F2; }
+
+
+.content.light-theme .btn__add-task {
+	color: #000000;
+	background-image: url(../icons/buttons/add-task-light.png);
+}
+.content.dark-theme .btn__add-task {
+	color: #DFDFDF;
+	background-image: url(../icons/buttons/add-task-dark.png);
+}
+
+
+/* SIDEBAR */
+
+.sidebar.light-theme .wrapper { background-color: #DBEEE7; }
+.sidebar.dark-theme .wrapper { background-color: #B9BCDD; }
+
+.sidebar.light-theme .btn:hover { background-color: #FFFFFF; }
+.sidebar.dark-theme .btn:hover { background-color: #8693C3; }
+
+.sidebar.light-theme .sidebar-list li { color: #000000; }
+.sidebar.dark-theme .sidebar-list li { color: #DFDFDF; }
+
+.sidebar.light-theme .sidebar-list li:hover { background-color: #DFDFDF; }
+.sidebar.dark-theme .sidebar-list li:hover { background-color: #232E55; }
+
+/* List Icons */
+
+body.light-theme .ico-inbox { background-image: url(../icons/projects/inbox-light.png); }
+body.dark-theme .ico-inbox { background-image: url(../icons/projects/inbox-dark.png); }
+
+body.light-theme .ico-today { background-image: url(../icons/projects/today-light.png); }
+body.dark-theme .ico-today { background-image: url(../icons/projects/today-dark.png); }
+
+body.light-theme .ico-week { background-image: url(../icons/projects/week-light.png); }
+body.dark-theme .ico-week { background-image: url(../icons/projects/week-dark.png); }
+
+body.light-theme .ico-overdue { background-image: url(../icons/projects/overdue-light.png); }
+body.dark-theme .ico-overdue { background-image: url(../icons/projects/overdue-dark.png); }
+
+body.light-theme .ico-books { background-image: url(../icons/projects/books-light.png); }
+body.dark-theme .ico-books { background-image: url(../icons/projects/books-dark.png); }
+
+body.light-theme .ico-build { background-image: url(../icons/projects/build-light.png); }
+body.dark-theme .ico-build { background-image: url(../icons/projects/build-dark.png); }
+
+body.light-theme .ico-car { background-image: url(../icons/projects/car-light.png); }
+body.dark-theme .ico-car { background-image: url(../icons/projects/car-dark.png); }
+
+body.light-theme .ico-culture { background-image: url(../icons/projects/culture-light.png); }
+body.dark-theme .ico-culture { background-image: url(../icons/projects/culture-dark.png); }
+
+body.light-theme .ico-food { background-image: url(../icons/projects/food-light.png); }
+body.dark-theme .ico-food { background-image: url(../icons/projects/food-dark.png); }
+
+body.light-theme .ico-gift { background-image: url(../icons/projects/gift-light.png); }
+body.dark-theme .ico-gift { background-image: url(../icons/projects/gift-dark.png); }
+
+body.light-theme .ico-health { background-image: url(../icons/projects/health-light.png); }
+body.dark-theme .ico-health { background-image: url(../icons/projects/health-dark.png); }
+
+body.light-theme .ico-home { background-image: url(../icons/projects/home-light.png); }
+body.dark-theme .ico-home { background-image: url(../icons/projects/home-dark.png); }
+
+body.light-theme .ico-map { background-image: url(../icons/projects/map-light.png); }
+body.dark-theme .ico-map { background-image: url(../icons/projects/map-dark.png); }
+
+body.light-theme .ico-movie { background-image: url(../icons/projects/movie-light.png); }
+body.dark-theme .ico-movie { background-image: url(../icons/projects/movie-dark.png); }
+
+body.light-theme .ico-music { background-image: url(../icons/projects/music-light.png); }
+body.dark-theme .ico-music { background-image: url(../icons/projects/music-dark.png); }
+
+body.light-theme .ico-notification { background-image: url(../icons/projects/notification-light.png); }
+body.dark-theme .ico-notification { background-image: url(../icons/projects/notification-dark.png); }
+
+body.light-theme .ico-people { background-image: url(../icons/projects/people-light.png); }
+body.dark-theme .ico-people { background-image: url(../icons/projects/people-dark.png); }
+
+body.light-theme .ico-pet { background-image: url(../icons/projects/pet-light.png); }
+body.dark-theme .ico-pet { background-image: url(../icons/projects/pet-dark.png); }
+
+body.light-theme .ico-sport { background-image: url(../icons/projects/sport-light.png); }
+body.dark-theme .ico-sport { background-image: url(../icons/projects/sport-dark.png); }
+
+body.light-theme .ico-ticket { background-image: url(../icons/projects/ticket-light.png); }
+body.dark-theme .ico-ticket { background-image: url(../icons/projects/ticket-dark.png); }
+
+
+/* WINDOW */
+
+.window-wrapper.light-theme { background-color: rgba(255, 255, 255, 0.8); }
+.window-wrapper.dark-theme { background-color: rgba(4, 6, 41, 0.8); }
+
+.window-wrapper.light-theme .window { background-color: #FFFFFF; }
+.window-wrapper.dark-theme .window { background-color: #040629;}
+
+.window-wrapper.light-theme .window-input { 
+	border-color: #979797;
+	background-color: #FFFFFF; 
+}
+.window-wrapper.dark-theme .window-input { 
+	border-color: #DFDFDF; 
+	background-color: #A6A8BE;
+}
+
+.window-wrapper.light-theme .window-content,
+.window-wrapper.light-theme .win-btn {
+	border-color: #000000;
+}
+
+.window-wrapper.dark-theme .window-content,
+.window-wrapper.dark-theme .win-btn {
+	border-color: #DFDFDF;
+}
+
+.window-wrapper.light-theme .btn { color: #000000; }
+.window-wrapper.dark-theme .btn { color: #DFDFDF; }
+
+.window-wrapper.light-theme .btn__show-details { background-image: url(../icons/window/arrow-light.png); }
+.window-wrapper.dark-theme .btn__show-details { background-image: url(../icons/window/arrow-dark.png); }
+
+.window-wrapper.light-theme .btn__hide-details { background-image: url(../icons/window/arrow-rotate-light.png); }
+.window-wrapper.dark-theme .btn__hide-details { background-image: url(../icons/window/arrow-rotate-dark.png); }
+
+.window-wrapper.light-theme .btn__remove-time { background-image: url(../icons/nav/cross-light.png); }
+.window-wrapper.dark-theme .btn__remove-time { background-image: url(../icons/nav/cross-dark.png); }
+
+.window-wrapper.light-theme label:hover { background-color: #DFDFDF; }
+.window-wrapper.dark-theme label:hover { background-color: #232E55; }
+
+.window-wrapper.light-theme input:checked+label{ background-color: #DFDFDF; }
+.window-wrapper.dark-theme input:checked+label{ background-color: #232E55; }

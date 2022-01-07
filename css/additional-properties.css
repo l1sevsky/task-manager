@@ -1,0 +1,19 @@
+.animate {
+	transition: transform 0.2s linear;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.display-none {
+	display: none;
+}
+
+.shift-right-100 {
+	transform: translate(100px, 0);
+}
+
+.shift-right-250 {
+	transform: translate(250px, 0);
+}

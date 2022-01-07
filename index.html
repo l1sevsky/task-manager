@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/datetime.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="css/content.css">
+	<link rel="stylesheet" href="css/window.css">
+	<link rel="stylesheet" href="css/additional-properties.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+	<title>Планировщик задач</title>
+	<link rel="shortcut icon" href="icons/favicon.png" type="image/png">
+
+	<script src="js/database.js"></script>
+	<script src="js/html.js"></script>
+</head>
+<body class="theme light-theme">
+	<main class="page-main">
+
+		<nav class="nav theme light-theme">
+			<button class="btn btn__open-menu" id="nav-btn__open-menu"></button>
+			<button class="btn btn__change-theme" id="nav-btn__change-theme"></button>
+		</nav>
+
+		<div class="datetime theme light-theme animate" id="datetime">
+			<p class="datetime-time" id="current-time"></p>
+			<p class="datetime-weekday" id="current-weekday"></p>
+			<p class="datetime-date" id="current-date"></p>
+		</div>
+
+		<aside class="sidebar theme light-theme display-none" id="sidebar">
+			<div class="wrapper">
+				<h2 class="sidebar-title sidebar-title__category">Категории</h2>
+			</div>
+			<ul class="sidebar-list">
+				<li class="ico-overdue" id="open-category__overdue">Просрочено</li>
+				<li class="ico-inbox" id="open-category__inbox">Вxодящие</li>
+				<li class="ico-today" id="open-category__today">Сегодня</li>
+				<li class="ico-week" id="open-category__week">Неделя</li>
+			</ul>
+			<div class="wrapper">
+				<h2 class="sidebar-title sidebar-title__projects">Проекты</h2>
+				<button class="btn btn__add-project" id="sidebar-btn__add-project"></button>
+			</div>
+			<ul class="sidebar-list" id="projects-list">
+				<!-- Place for project links -->
+			</ul>
+		</aside>
+
+		<section class="content theme light-theme animate" id="content">
+			<!-- Place for content headers and content mains -->
+		</section>
+	</main>
+
+	<section class="window-wrapper theme light-theme display-none" id="window-wrapper">
+		<div class="window" id="window">
+			<!-- Place for window content -->
+		</div>
+	</section>
+
+	<section class="window-load" id="window-load">
+		<img src="icons/window/load.gif" alt="Loading...">
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+	<script src="https://npmcdn.com/flatpickr/dist/flatpickr.min.js"></script>
+	<script src="https://npmcdn.com/flatpickr/dist/l10n/ru.js"></script>
+	<script src="js/time.js"></script>
+	<script src="js/convert.js"></script>
+	<script src="js/design.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

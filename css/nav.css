@@ -1,0 +1,21 @@
+.nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	gap: 70px;
+
+	position: fixed;
+	top: 60px;
+	left: calc(50vw - 900px / 2 - 270px);
+}
+
+.nav .btn {
+	width: 65px;
+	height: 65px;
+	
+	border-radius: 50%;
+	background-size: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+}

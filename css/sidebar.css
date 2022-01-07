@@ -1,0 +1,83 @@
+.sidebar {
+	width: 320px;
+	margin-top: 35px;
+	margin-left: 100px;
+}
+
+.sidebar > .wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sidebar-title {
+	display: block;
+	height: 46px;
+	box-sizing: border-box;
+	padding-left: 48px;
+	padding-right: 15px;
+	padding-top: 9px;
+
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	background-size: 24px;
+}
+
+.sidebar-title__category {
+	background-image: url(../icons/menu/category.png);
+}
+
+.sidebar-title__projects {
+	background-image: url(../icons/menu/projects.png);
+}
+
+.btn__add-project {
+	height: 32px;
+	width: 32px;
+	margin: 5px 10px;
+
+	border-radius: 50%;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../icons/menu/plus.png);
+}
+
+.btn__add-project:hover {
+	cursor: pointer;
+}
+
+.sidebar-list {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 5px;
+	padding: 20px 0;
+	padding-left: 30px;
+}
+
+.sidebar-list li {
+	display: inline-block;
+	padding-left: 55px;
+	padding-right: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.2em;
+
+	border-radius: 2em;
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	background-size: 22px;
+}
+
+.sidebar-list li:hover {
+	cursor: pointer;
+}
